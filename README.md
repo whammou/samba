@@ -36,7 +36,6 @@ Running `id`
 Output: `uid= gid= group=`
 
 2. Mount Samba to desire `dir`:
-
 `sudo mount //<adress>/sambashare /path/to/dir -o username=<username>,password=<password>,uid=<uid>,gid=<gid>,workgroup=<workdgroup>`
     1. Mount on boot, edit `/etc/fstab`
     `//ip/share   /home/whammou/server   cifs    _netdev,username=...  0 0`
